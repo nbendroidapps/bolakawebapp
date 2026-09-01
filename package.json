@@ -1,11 +1,19 @@
 {
   "name": "bolakawebapp",
   "version": "1.0.0",
-  "description": "My first web app",
+  "description": "বলাকা শিক্ষাভিত্তিক ওয়েব অ্যাপ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  }
 }

@@ -1,3 +1,3 @@
 version: v1
-buildConfig:
-  outputDirectory: .
+runConfig:
+  maxInstances: 2
