@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/bolakawebapp.worktrees/add-play-store-button-bolakaapp/app/components/UserNav.js"],"sourcesContent":["'use client';\r\n\r\nimport Link from 'next/link';\r\nimport { useAuth } from '../AuthContext';\r\n\r\nexport default function UserNav() {\r\n  const { user, loading } = useAuth();\r\n\r\n  if (loading) {\r\n    return null;\r\n  }\r\n\r\n  return (\r\n    <>\r\n      {user ? (\r\n        <Link className=\"nav-link profile-link\" href=\"/profile\" aria-label=\"প্রোফাইল দেখুন\">\r\n          👤 প্রোফাইল\r\n        </Link>\r\n      ) : (\r\n        <Link className=\"nav-link login-link\" href=\"/login\" aria-label=\"সাইন ইন করুন\">\r\n          📌 সাইন ইন\r\n        </Link>\r\n      )}\r\n    </>\r\n  );\r\n}\r\n"],"names":["UserNav","user","loading","className","href"],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKe,SAASA;IACtB,MAAM,EAAEC,IAAI,EAAEC,OAAO,EAAE,GAAG,IAAA,6HAAO;IAEjC,IAAIA,SAAS;QACX,OAAO;IACT;IAEA,qBACE;kBACGD,qBACC,8OAAC,uKAAI;YAACE,WAAU;YAAwBC,MAAK;YAAW,cAAW;sBAAiB;;;;;iCAIpF,8OAAC,uKAAI;YAACD,WAAU;YAAsBC,MAAK;YAAS,cAAW;sBAAe;;;;;;;;;;;AAMtF"}}]
+}

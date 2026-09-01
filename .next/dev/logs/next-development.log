@@ -1,3 +1,23 @@
-{"timestamp":"00:00:04.660","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:04.662","source":"Server","level":"LOG","message":"✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable."}
-{"timestamp":"00:00:25.009","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:01.207","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:27.962","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:47.784","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
+{"timestamp":"00:00:47.842","source":"Server","level":"WARN","message":"[browser] \"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\""}
+{"timestamp":"00:01:14.103","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.). (app/login/page.js:24:15)"}
+{"timestamp":"00:01:14.104","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:10:51.170","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.). (app/login/page.js:24:15)"}
+{"timestamp":"00:10:51.170","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:10:52.435","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.). (app/login/page.js:24:15)"}
+{"timestamp":"00:10:52.436","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:11:04.385","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.). (app/login/page.js:24:15)"}
+{"timestamp":"00:11:04.385","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:11:21.155","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.). (app/login/page.js:24:15)"}
+{"timestamp":"00:11:21.155","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/api-key-not-valid.-please-pass-a-valid-api-key.).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:11:49.962","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
+{"timestamp":"00:11:50.064","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./app/firebase.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
+{"timestamp":"00:11:50.428","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"00:11:51.005","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:13.695","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/popup-closed-by-user). (app/login/page.js:24:15)"}
+{"timestamp":"00:12:13.695","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/popup-closed-by-user).\" \"(app/login/page.js:24:15)\""}
+{"timestamp":"00:12:17.767","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:44.036","source":"Browser","level":"ERROR","message":"Authentication error: FirebaseError: Firebase: Error (auth/popup-closed-by-user). (app/login/page.js:24:15)"}
+{"timestamp":"00:12:44.037","source":"Server","level":"ERROR","message":"[browser] \"Authentication error:\" \"FirebaseError: Firebase: Error (auth/popup-closed-by-user).\" \"(app/login/page.js:24:15)\""}
