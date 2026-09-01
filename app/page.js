@@ -4,12 +4,18 @@ const levels = [
   ['উচ্চ মাধ্যমিক', 'একাদশ ও দ্বাদশ শ্রেণি'],
 ];
 
+import Link from 'next/link';
+import UserNav from './components/UserNav';
+
 export default function Home() {
   return (
     <main>
       <nav className="nav" aria-label="প্রধান নেভিগেশন">
-        <a className="brand" href="#top" aria-label="বলাকা হোম">বলাকা<span>।</span></a>
-        <a className="nav-link" href="#about">আমাদের সম্পর্কে</a>
+        <Link className="brand" href="#top" aria-label="বলাকা হোম">বলাকা<span>।</span></Link>
+        <div className="nav-right">
+          <a className="nav-link" href="#about">আমাদের সম্পর্কে</a>
+          <UserNav />
+        </div>
       </nav>
 
       <section className="hero" id="top">
