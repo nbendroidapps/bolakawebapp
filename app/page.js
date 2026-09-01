@@ -17,7 +17,19 @@ export default function Home() {
           <p className="eyebrow">শিক্ষার সঙ্গী, প্রতিদিন</p>
           <h1>পড়াশোনা হোক<br /><em>আরও সহজ।</em></h1>
           <p className="lead">বাংলাদেশের চতুর্থ থেকে দ্বাদশ শ্রেণির শিক্ষার্থীদের জন্য পাঠ্যক্রমভিত্তিক শিক্ষাসামগ্রী এক জায়গায় আনার একটি উদ্যোগ।</p>
-          <a className="button" href="#levels">শ্রেণি নির্বাচন করুন <span aria-hidden="true">→</span></a>
+          <div className="hero-actions">
+            <a className="button" href="#levels">শ্রেণি নির্বাচন করুন <span aria-hidden="true">→</span></a>
+            <a
+              className="button secondary"
+              href="https://play.google.com/store/apps/details?id=com.bendroidapps.bolakaapp"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="গুগল প্লে স্টোর থেকে বলাকা অ্যাপ ডাউনলোড করুন"
+            >
+              <span className="play-icon" aria-hidden="true">▶</span>
+              গুগল প্লে থেকে অ্যাপ নিন
+            </a>
+          </div>
         </div>
         <div className="hero-art" aria-hidden="true">
           <div className="sun" />
